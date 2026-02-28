@@ -1,0 +1,21 @@
+*.log
+*.tmp
+*.bak
+
+# Existing game build artifacts
+Engine/
+InitialProject/
+*.exe
+Manifest_*.txt
+
+# Local launcher/generated artifacts
+launch-*.sh
+
+# Wine or runtime generated outputs
+dxgi.log
+d3d11.log
+d3d12.log
+vkd3d-proton.log
+
+# Keep game files tracked externally if desired
+# (Do not add binary assets to this repo by default)
